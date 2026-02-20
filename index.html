@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gridstone Partners | Power, Land, & Infrastructure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:wght@300;400&family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #001;
+            color: #ffffff;
+        }
+        .letter-spacing-widest {
+            letter-spacing: 0.10em;
+        }
+        .hero-gradient {
+            background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+                        url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=2070');
+            background-size: contain;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-color: #000;
+        }
+
+        /* Cinzel: monumental Roman serifs echoing pre-colonial Mesoamerican stone carving,
+           Baybayin script structure, and modern tech precision */
+        .brand-wordmark {
+            font-family: 'Cinzel', serif;
+            font-weight: 400;
+            letter-spacing: 0.22em;
+            font-size: 1.15rem;
+            text-transform: uppercase;
+        }
+
+        /* Thin rule inspired by Aztec border patterning and Filipino hablon weave lines */
+        .brand-rule {
+            display: inline-block;
+            width: 2px;
+            height: 1.1em;
+            background: currentColor;
+            opacity: 0.35;
+            vertical-align: middle;
+            margin: 0 0.75rem;
+        }
+
+        .brand-sub {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 300;
+            font-style: italic;
+            letter-spacing: 0.18em;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- NAV: white background, black text -->
+    <nav class="bg-white pt-10 pb-10 text-center border-b border-gray-100">
+        <div class="max-w-7xl mx-auto flex flex-col items-center gap-2">
+            <h1 class="brand-wordmark text-black">
+                Gridstone Partners
+            </h1>
+
+        </div>
+    </nav>
+    <section class="hero-gradient flex items-center justify-center text-center px-6" style="aspect-ratio: 2070 / 1380;">
+        <div class="max-w-5xl py-20">
+            <h2 class="text-3xl md:text-5xl leading-[1.8] letter-spacing-widest uppercase mb-16 opacity-95" style="font-family: 'Cormorant Garamond', serif; font-weight: 300;">
+                The Intersection of <br class="hidden md:block"> Power, Land, and Infrastructure
+            </h2>
+            <div class="w-16 h-px bg-white mx-auto mb-16 opacity-40"></div>
+        </div>
+    </section>
+    <section id="contact" class="py-40 px-6 bg-white text-black text-center">
+        <a href="mailto:info@gridstonepartners.com" class="inline-block border border-black px-14 py-4 uppercase tracking-[0.5em] text-[10px] font-light hover:bg-black hover:text-white transition-all duration-700">
+            Contact Us
+        </a>
+    </section>
+    <footer class="py-24 text-center bg-white text-black opacity-30">
+        <p class="text-[9px] uppercase tracking-[0.6em]">Copyright © 2026 Gridstone Partners - All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
